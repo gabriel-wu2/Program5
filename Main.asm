@@ -41,7 +41,7 @@ ADD R3, R3, #1
 BRNZP LOOP1
 
 GOTOU 
-ADD R3, R3, #1		;checks u
+ADD R3, R3, #1		;check U
 LD R1, NEGU
 ADD R1, R1, R0
 BRNP CHECKA
@@ -49,7 +49,7 @@ ADD R3, R3, #1
 BRNZP LOOP1
 
 GOTOG
-ADD R3, R3, #1
+ADD R3, R3, #1		;checks g
 LD R1, NEGG
 ADD R1, R1, R0
 BRZ START
