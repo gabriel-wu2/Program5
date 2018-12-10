@@ -12,7 +12,7 @@ LD R6, stack
 LD R0, interrupt
 STI R0, KBIVE
 
-; enable keyboard interrupts
+; enable keyboard interrupts okj
 LD R0, KBIEN
 STI R0, KBSR
 
